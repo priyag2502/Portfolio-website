@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Satisfy&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Frank+Ruhl+Libre&family=Hammersmith+One&family=Josefin+Sans&family=Satisfy&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=EB+Garamond:wght@500&family=Frank+Ruhl+Libre&family=Hammersmith+One&family=Josefin+Sans&family=Satisfy&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Darker+Grotesque&family=EB+Garamond:wght@500&family=Frank+Ruhl+Libre&family=Hammersmith+One&family=Josefin+Sans:wght@300;400&family=Satisfy&family=Source+Code+Pro:wght@300&family=Ysabeau:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Darker+Grotesque&family=EB+Garamond:wght@500&family=Frank+Ruhl+Libre&family=Hammersmith+One&family=Josefin+Sans:wght@300;400&family=Open+Sans:wght@300;400&family=Satisfy&family=Source+Code+Pro:wght@300&family=Ysabeau:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(223, 218, 218);
+    /*width: 434px;*/
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 32px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 83vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /*background-color: rgb(202, 9, 128);*/
+    height: 58vh;
+    width: 83vw;
+    margin: 125px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.devInfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    font-size: 1.3em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 23px;
+}
+
+.buttons {
+    margin-top: 34px;
+    font-size: 8px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 9px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    color: white;
+    background-color: dodgerblue;
+    padding: 7px 13px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.btn-sm:hover{
+    background-color: white;
+    color: dodgerblue; 
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img {
+    height: 53vh;
+}
+
+.contactform {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 26px;
+    /*padding-top: 144px;*/
+    margin: 70px 88px;
+}
+
+.contactform h1{
+    font-family: 'EB Garamond', serif;
+    /*padding: 12px 0;*/ 
+}
+
+.contactform  form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform  form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform  form{
+    margin: 0 4px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+.achievementItem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.achievementsContainer h1{
+    font-family: 'Crimson Text', serif;
+    margin: 18px;
+}
+    
+.achievementItem p{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.achievementsContainer{
+    margin: 70px 88px;
+}
+
+.intro{
+    margin: 70px 88px;
+}
+
+
+.intro h1{
+    font-family: 'Crimson Text', serif;
+    /*margin: 12px;*/
+}
+
+.intro h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 70px 88px;
+}
+
+.skillList{
+    border-left: 5px solid rgb(193, 91, 130);
+    background-color: #f1f1f1;
+    list-style-type: square;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 180px;
+    background-color: rgb(192, 23, 119);
+}
+
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 13px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.cross{
+    margin-left: 209px;
+    margin-top: 5px;
+}
+
+.devInfo{
+    font-size: 16px;
+}
+
+@media (max-width: 1405px) {
+    .buttons{
+        font-size: 5px
+    }
+    .devPic{
+        display: none;
+    }
+    .intro, .achievementsContainer, .contactform{
+        margin: 50px 8px;
+    }
+
+    /*.sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }*/
+
+}
